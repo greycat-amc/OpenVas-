@@ -92,4 +92,3 @@ Once the scan is completed, the results will appear as shown below.
 
 ---
 
-# Vulnerability Report Analysis
