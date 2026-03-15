@@ -1,6 +1,6 @@
 
 ## OpenVAS Installation > Setup Check Issue
-When use gvm-check-setup, if any issue is detected, the tool provides recommendations on how to resolve it.  
+When you use gvm-check-setup, if any issue is detected, the tool provides recommendations on how to resolve it.  
 In our case, two issues were identified:
 
 1. A problem related to PostgreSQL where the database was reported as **"does not exist"**. 
