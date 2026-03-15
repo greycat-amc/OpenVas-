@@ -93,10 +93,13 @@ To correct this configuration, we first remove the IDE controller, which is unne
 </p
 
 
+
 <p align="center">
   <img src="../screenshots/borrarvdi.png" width="700">
   <br>
 </p
+
+
 
 <p align="center">
   <img src="../screenshots/añadirvmdk.png" width="700">
