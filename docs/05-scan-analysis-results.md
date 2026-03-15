@@ -106,19 +106,4 @@ These vulnerabilities demonstrate that the system contains multiple insecure ser
   <em>Vulnerability Information</em>
 </p>
 
-## 5. Detailed Vulnerability Analysis (FTP port 21 - CVE-2011-2523)
-
-One of the most relevant vulnerabilities identified during the scan affects the **FTP service running on port 21**.
-OpenVAS detected that the system is running a compromised version of **vsftpd 2.3.4**, which contains a known backdoor vulnerability.
-<p align="center">
-  <img src="../screenshots/vulnerabilidad vsfpd.png" width="700">
-  <br>
-  <em>CVE-2011-2523</em>
-</p>
-
-The vsftpd service is vulnerable due to a compromised source package that introduced a malicious backdoor into the software distribution.
-According to the OpenVAS report, the vulnerable version of vsftpd contains a hidden backdoor mechanism that can be triggered by a specially crafted login request.
-Once triggered, the backdoor opens a command shell on **port 6200**, allowing an attacker to execute commands on the target system.
-If successfully exploited, this vulnerability allows attackers to execute arbitrary commands on the affected machine, potentially gaining unauthorized access to the system. Due to the possibility of remote command execution, this vulnerability is classified as **Critical**.
-
-
+In the section CVE-2011-2523 Analysis, we take a deeper look at one of the vulnerabilities identified during the OpenVAS scan.
