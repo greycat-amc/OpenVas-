@@ -13,7 +13,7 @@ The purpose of this laboratory is to demonstrate how a vulnerability scanner can
 - Role: Vulnerability scanner
 
 <p align="center">
-  <img src="../screenshots/aptupdate.png" width="700">
+  <img src="../screenshots/kalired.png" width="700">
   <br>
   <em>Kali Network Configurationt</em>
 </p>
@@ -26,6 +26,11 @@ The purpose of this laboratory is to demonstrate how a vulnerability scanner can
 
 Metasploitable is an intentionally vulnerable virtual machine designed for security training and penetration testing exercises.
 
+<p align="center">
+  <img src="../screenshots/metasploitred.png" width="700">
+  <br>
+  <em>Metasploitable2 Network Configurationt</em>
+</p>
 ## Laboratory Environment
 
 The laboratory environment consists of two virtual machines running in the same network, to allow communication between the scanner and the target.Both virtual machines are connected to the same NAT Network in VirtualBox in order to allow communication between the scanner and the target system.
