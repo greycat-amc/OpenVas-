@@ -8,7 +8,7 @@ Once the laboratory environment has been prepared and network connectivity betwe
   <em>OpenVAS Dashboard</em>
 </p>
 
-## Target Configuration
+## 1. Target Configuration
 
 The first step is to define the scan target within the OpenVAS web interface.
 
@@ -37,7 +37,7 @@ It is possible that at this stage some issues related to the target creation may
 
 ---
 
-## Scan Task Configuration
+## 2. Scan Task Configuration
 
 After defining the target, a scan task must be created.
 
@@ -68,7 +68,7 @@ Once the scan  has been successfully created, it will appear on the main screen 
 
 ---
 
-## Launching the Scan
+## 3. Launching the Scan
 
 Once the task has been created, the scan can be executed by clicking the **Start Scan** button.
 During this phase, OpenVAS performs several actions:
