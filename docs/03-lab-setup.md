@@ -3,9 +3,9 @@
 # Lab Setup
 The purpose of this laboratory is to demonstrate how a vulnerability scanner can identify security weaknesses in a vulnerable system. The goal of the lab is to perform a vulnerability scan against the Metasploitable system using OpenVAS.
 
-## Machines Used in the Lab
+## 1. Machines Used in the Lab
 
-### Scanner Machine
+  ### Scanner Machine
 
 - Operating System: Kali Linux
 - Network configuration: NAT Network (VirtualBox)
@@ -17,7 +17,7 @@ The purpose of this laboratory is to demonstrate how a vulnerability scanner can
   <em>Kali Network Configurationt</em>
 </p>
 
-### Target Machine
+  ### Target Machine
 
 - Operating System: Metasploitable 2
 - Network configuration: NAT Network (VirtualBox)
@@ -31,7 +31,7 @@ Metasploitable is an intentionally vulnerable virtual machine designed for secur
   <em>Metasploitable2 Network Configurationt</em>
 </p>
 
-## Laboratory Environment
+## 2. Laboratory Environment
 
 The laboratory environment consists of two virtual machines connected to the same network. Both machines are configured within the same **NAT Network in VirtualBox**, enabling communication between the vulnerability scanner and the target system.
 
@@ -44,7 +44,7 @@ The laboratory environment consists of two virtual machines connected to the sam
   <em>Laboratory Diagram</em>
 </p>
 
-## Network Verification
+##3.  Network Verification
 
 Before starting the vulnerability scan, it is necessary to identify the IP address assigned to the target virtual machine within the network. This can be done using standard network commands such as `ip a` or `ifconfig` on each machine. However, in this case, the Nmap host discovery function will be used to identify active hosts in the network, simulating a real-world environment.
 
