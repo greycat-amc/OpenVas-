@@ -103,6 +103,6 @@ This command starts all services required for the vulnerability management platf
 <p align="center">
   <img src="../screenshots/gvmstart.png" width="700">
   <br>
-  <em>OpenVAS check setup</em>
+  <em>OpenVAS Start</em>
 </p>
 
