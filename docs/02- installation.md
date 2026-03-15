@@ -23,11 +23,16 @@ sudo apt update
 </p>
 
 ## 2. Install Greenbone Vulnerability Manager (GVM)
+
+sudo apt install gvm
+
 This command installs the Greenbone Vulnerability Management framework, which includes:
+
   -OpenVAS Scanner
   -Greenbone Vulnerability Manager (gvmd)
   -Greenbone Security Assistant (web interface)
   -vulnerability test plugins (VTs)
+  
 All required dependencies are automatically installed during this process.
 
 <p align="center">
