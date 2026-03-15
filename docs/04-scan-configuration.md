@@ -1,6 +1,10 @@
 # Vulnerability Scan Configuration and Analysis
 
-Once the laboratory environment has been prepared and network connectivity between the scanner and the target system has been verified, the next step is to configure and execute the vulnerability scan using OpenVAS.
+Once the laboratory environment has been prepared and network connectivity between the scanner and the target system has been verified, the next step is to configure and execute the vulnerability scan using OpenVAS. 
+
+<p align="center">
+  <img src="../screenshots/targetconfig.png" width="750">
+</p>
 
 ## Target Configuration
 
