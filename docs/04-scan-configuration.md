@@ -8,6 +8,10 @@ The first step is to define the scan target within the OpenVAS web interface.
 
 1. Navigate to **Configuration → Targets**
 2. Click **New Target**
+
+<p align="center">
+  <img src="../screenshots/targetconfig.png" width="750">
+</p>
 3. Provide the following information:
 
 - **Name:** Metasploitable2
