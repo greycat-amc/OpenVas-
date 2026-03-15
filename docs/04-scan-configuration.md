@@ -7,7 +7,7 @@ Once the laboratory environment has been prepared and network connectivity betwe
 The first step is to define the scan target within the OpenVAS web interface.
 
 1. Navigate to **Configuration → Targets**
-2. Click **New Target**
+2. Click **New Target** 
 
 <p align="center">
   <img src="../screenshots/targetconfig.png" width="750">
@@ -18,11 +18,16 @@ The first step is to define the scan target within the OpenVAS web interface.
 - **Hosts:** 10.0.2.7
 - **Port List:** Default
 
-This configuration defines the system that will be analyzed by the vulnerability scanner.
+<p align="center">
+  <img src="../screenshots/targetmeta.png" width="750">
+</p>
+This configuration defines the system that will be analyzed by the vulnerability scanner. Once the scan target has been successfully created, it will appear on the main screen as shown in the following screenshot. 
 
 <p align="center">
-  <img src="../screenshots/openvas-target-config.png" width="750">
+  <img src="../screenshots/targetok.png" width="750">
 </p>
+
+It is possible that at this stage some issues related to the target creation may occur. If this happens, please refer to the Troubleshooting section to review how a problem related to the feed owner was identified and resolved.
 
 ---
 
