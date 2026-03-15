@@ -32,22 +32,18 @@ This information confirms that the vulnerability assessment was executed success
 
  ## 2. Host Analysis
 
-## Host Analysis
-
 The **Hosts** tab displays the systems that were scanned during the assessment. For each host, OpenVAS provides several relevant metrics, including:
     - IP address
     - number of open ports detected
     - number of identified applications
     - number of vulnerabilities categorized by severity
 
-In this laboratory environment, the scan targeted a single host **Metasploitable**
-
-The report shows that multiple vulnerabilities were identified across several services running on this system.
+In this laboratory environment, the scan targeted a single host **Metasploitable** (10.0.2.7).The report shows that multiple vulnerabilities were identified across several services running on this system.
 
 <p align="center">
   <img src="../screenshots/host.png" width="700">
   <br>
-  <em>Report Global View</em>
+  <em>Host Information</em>
 </p>
 
 
