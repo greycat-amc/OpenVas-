@@ -88,7 +88,7 @@ This configuration will not work correctly for our lab because Metasploitable2 i
 To correct this configuration, we first remove the IDE controller, which is unnecessary in this setup. 
 
 <p align="center">
-  <img src="../screenshots/borrarcontrolide.png" width="700">
+  <img src="../screenshots/borrarcontroleride.png" width="700">
   <br>
 </p
 
