@@ -1,2 +1,2 @@
 # OpenVas
-Repositorio que recopila la información más relevante sobre la herramienta OpenVAS (Greenbone Vulnerability Manager). Incluye documentación de instalación y configuración, junto con un laboratorio práctico  para la ejecución de escaneos de vulnerabilidades y el análisis de resultados en un entorno vulnerable.
+Repository documenting the OpenVAS (Greenbone Vulnerability Manager) vulnerability scanning tool. It includes installation and configuration guides, as well as a practical lab demonstrating vulnerability scans and analysis of results in a vulnerable environment.
