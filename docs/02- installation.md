@@ -83,7 +83,7 @@ This command verifies that all required components have been correctly installed
     - system dependencies
 
 <p align="center">
-  <img src="../screenshots/aptinstallopenvas.png" width="700">
+  <img src="../screenshots/gvmchecksetup.png" width="700">
   <br>
   <em>OpenVAS check setup</em>
 </p>
