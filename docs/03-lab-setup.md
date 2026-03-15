@@ -8,7 +8,7 @@ The purpose of this laboratory is to demonstrate how a vulnerability scanner can
 ### Scanner Machine
 
 - Operating System: Kali Linux
-- Network Configuration: NAT Network
+- Network configuration: NAT Network (VirtualBox)
 - Tool: OpenVAS / Greenbone Vulnerability Manager
 - Role: Vulnerability scanner
 
@@ -21,14 +21,14 @@ The purpose of this laboratory is to demonstrate how a vulnerability scanner can
 ### Target Machine
 
 - Operating System: Metasploitable 2
-- 
+- Network configuration: NAT Network (VirtualBox)
 - Role: Vulnerable target system used for security testing
 
 Metasploitable is an intentionally vulnerable virtual machine designed for security training and penetration testing exercises.
 
 ## Laboratory Environment
 
-The laboratory environment consists of two virtual machines running in the same network, to allow communication between the scanner and the target.
+The laboratory environment consists of two virtual machines running in the same network, to allow communication between the scanner and the target.Both virtual machines are connected to the same NAT Network in VirtualBox in order to allow communication between the scanner and the target system.
 
 - **Kali Linux**: attacker machine used to install and run OpenVAS.
 - **Metasploitable 2**: intentionally vulnerable machine used as the scan target.
