@@ -13,7 +13,7 @@
 ## 1. Update Package List
 
 ````markdown
-kali@kali:~$ sudo apt install gvm
+kali@kali:~$ sudo apt update
 ````
 
 This command updates the list of available packages on the system.The system queries the Linux repositories and downloads the most recent list of available software.
@@ -27,7 +27,9 @@ This command does not install any software yet, but ensures that the latest vers
 
 ## 2. Install Greenbone Vulnerability Manager (GVM)
 
-sudo apt install gvm
+````markdown
+kali@kali:~$ sudo apt install gvm
+````
 
 This command installs the Greenbone Vulnerability Management framework, which includes:
 
