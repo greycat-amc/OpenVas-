@@ -22,10 +22,16 @@ sudo apt update
   <em>OpenVAS installation process</em>
 </p>
 
+## 2. Install Greenbone Vulnerability Manager (GVM)
+This command installs the Greenbone Vulnerability Management framework, which includes:
+  -OpenVAS Scanner
+  -Greenbone Vulnerability Manager (gvmd)
+  -Greenbone Security Assistant (web interface)
+  -vulnerability test plugins (VTs)
+All required dependencies are automatically installed during this process.
 
-
-sudo gvm-start
-
-The web interface is available at:
-
-https://127.0.0.1:9392
+<p align="center">
+  <img src="../screenshots/aptinstall.png" width="700">
+  <br>
+  <em>OpenVAS installation process</em>
+</p>
