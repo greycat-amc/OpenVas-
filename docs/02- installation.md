@@ -48,3 +48,26 @@ All required dependencies are automatically installed during this process.
   <br>
   <em>OpenVAS installation process</em>
 </p>
+
+## 3. Initial Setup
+
+````markdown
+kali@kali:~$ sudo gvm-setup
+````
+
+This command performs the initial configuration of the platform.During this process the system will:
+
+  - download the vulnerability test feed
+  - configure the scanning engine
+  - initialize the PostgreSQL database
+  - generate SSL certificates
+  - create the administrator account
+This step may take several minutes depending on system performance and insternet speed.
+
+<p align="center">
+  <img src="../screenshots/aptinstallopenvas.png" width="700">
+  <br>
+  <em>OpenVAS installation process</em>
+</p>
+
+If the setup process returns the error **"database postgres has a collation version mismatch"**, consult the [3.InitialSetup-Postgres version mismatch](06-troubleshooting.md) section of this repository for detailed instructions on how to resolve the issue.
