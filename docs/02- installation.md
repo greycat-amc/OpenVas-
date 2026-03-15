@@ -69,3 +69,31 @@ This step may take several minutes depending on system performance and insternet
 </p>
 
 If the setup process returns the error **"database postgres has a collation version mismatch"**, consult the [Installation-Step3.InitialSetup-Postgres version mismatch](06-troubleshooting.md) section of this repository for detailed instructions on how to resolve the issue.
+
+## 4. Verify Installation
+
+````markdown
+kali@kali:~$ sudo gvm-check-setup
+````
+
+This command verifies that all required components have been correctly installed and configured.It checks:
+
+    - vulnerability feeds
+    - scanner configuration
+    - database setup
+    - system dependencies
+
+<p align="center">
+  <img src="../screenshots/aptinstallopenvas.png" width="700">
+  <br>
+  <em>OpenVAS installation process</em>
+</p>
+
+If any issue is detected, the tool provides recommendations on how to resolve it.  
+In our case, two issues were identified:
+
+1. A problem related to PostgreSQL where the database was reported as **"does not exist"**. The suggested solution was to recreate or initialize the PostgreSQL database used by GVM.
+
+2. The absence of a user account required to access the web interface. In this case, it is necessary to create an administrator user in order to log in to the platform.
+
+
