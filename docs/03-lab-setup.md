@@ -46,7 +46,7 @@ The laboratory environment consists of two virtual machines connected to the sam
 
 ## Network Verification
 
-Before starting the vulnerability scan, it is necessary to identify the IP addresses assigned to the virtual machines within the network. This can be done using standard network commands such as `ip a` or `ifconfig` in each machine. In this lab, the Nmap host discovery function will be used to identify active hosts in the network.
+Before starting the vulnerability scan, it is necessary to identify the IP address assigned to the target virtual machine within the network. This can be done using standard network commands such as `ip a` or `ifconfig` on each machine. However, in this case, the Nmap host discovery function will be used to identify active hosts in the network, simulating a real-world environment.
 
 <p align="center">
   <img src="../screenshots/kaliip.png" width="700">
