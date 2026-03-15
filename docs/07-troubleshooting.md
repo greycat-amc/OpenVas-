@@ -1,7 +1,7 @@
 # OpenVAS Installation > Setup Check Issue
 When running gvm-check-setup, if any issue is detected, the tool provides recommendations on how to resolve it. In our case, two issues were identified:  
 
-1. A problem related to PostgreSQL where the database was reported as **"does not exist"**. 
+A problem related to PostgreSQL where the database was reported as **"does not exist"**. 
 <p align="center">
   <img src="../screenshots/gvmchecksetuppostgres.png" width="700">
   <br>
