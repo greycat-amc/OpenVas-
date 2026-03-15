@@ -2,17 +2,11 @@
 
 ## Supported Operating Systems
 
-OpenVAS, which is part of the Greenbone Vulnerability Management (GVM) framework, is designed to run on Linux systems. There is currently no official native version available for Windows.
-
-### Installation on Linux
-
-OpenVAS can be installed directly on several Linux distributions. The most commonly used ones are:
-
-- Kali Linux
-- Ubuntu / Debian
-- Parrot OS
-
-These distributions provide the necessary dependencies and package repositories required to install and run the Greenbone Vulnerability Management components.
+  As mentioned in the [Overview](01-openvas-overview.md) section although there are     workarounds to run OpenVAS from a Windows environment, such as using virtual          machines or similar solutions, the tool is designed to run natively on Linux          systems. OpenVAS can be installed directly on several Linux distributions. The most   commonly   used ones are:
+    - Kali Linux
+    - Ubuntu / Debian
+    - Parrot OS
+  These distributions provide the necessary dependencies and package repositories       required to install and run the Greenbone Vulnerability Management components.
 
 ## Install GVM
 
