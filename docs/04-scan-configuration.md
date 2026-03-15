@@ -33,7 +33,7 @@ This configuration defines the system that will be analyzed by the vulnerability
   <img src="../screenshots/targetok.png" width="750">
 </p>
 
-It is possible that at this stage some issues related to the target creation may occur. If this happens, please refer to the Troubleshooting section to review how a problem related to the feed owner was identified and resolved.
+It is possible that at this stage some issues related to the target creation may occur. If this happens, please refer to the [Scan Configuration > Feed Owner Issue](06-troubleshooting.md) section to review how a problem related to the feed owner was identified and resolved.
 
 ---
 
