@@ -70,4 +70,4 @@ This step may take several minutes depending on system performance and insternet
   <em>OpenVAS installation process</em>
 </p>
 
-If the setup process returns the error **"database postgres has a collation version mismatch"**, consult the [3.InitialSetup-Postgres version mismatch](06-troubleshooting.md) section of this repository for detailed instructions on how to resolve the issue.
+If the setup process returns the error **"database postgres has a collation version mismatch"**, consult the [Installation-Step3.InitialSetup-Postgres version mismatch](06-troubleshooting.md) section of this repository for detailed instructions on how to resolve the issue.
