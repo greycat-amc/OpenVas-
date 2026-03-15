@@ -88,6 +88,6 @@ This command verifies that all required components have been correctly installed
   <em>OpenVAS check setup</em>
 </p>
 
-In this case, the command indicates that the installation has been completed successfully. However, in our situation, this result was obtained after performing several prior actions to resolve specific issues that occurred during the setup process. These steps can be found in [OpenVAS Installation-Check Setup Issue](06-troubleshooting.md) section.
+In this case, the command indicates that the installation has been completed successfully. However, in our situation, this result was obtained after performing several prior actions to resolve specific issues that occurred during the setup process. These steps can be found in [OpenVAS Installation-Setup Check Issue](06-troubleshooting.md) section.
 
 When the tool detects a problem during installation, it returns the corresponding error message and suggests possible actions to resolve it.
