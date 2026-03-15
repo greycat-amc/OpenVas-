@@ -50,8 +50,8 @@ After defining the target, a scan task must be created.
 
 3. Configure the task with the following parameters:
 
-- **Name:** Metasploitable2 Scan
-- **Scan Target:** Metasploitable2
+- **Name:** Metasploitable Scaneo
+- **Scan Target:** Metasploit
 - **Scan Config:** Full and Fast
 
 The **Full and Fast** configuration performs a comprehensive vulnerability assessment while maintaining reasonable scanning time.
