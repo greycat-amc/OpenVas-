@@ -49,13 +49,13 @@ The laboratory environment consists of two virtual machines connected to the sam
 Before starting the vulnerability scan, it is necessary to identify the IP addresses assigned to the virtual machines within the network. This can be done using standard network commands such as `ip a` or `ifconfig` in each machine. In this lab, the Nmap host discovery function will be used to identify active hosts in the network.
 
 <p align="center">
-  <img src="../screenshots/Esquema Lab.png" width="700">
+  <img src="../screenshots/kaliip.png" width="700">
   <br>
   <em>Kali IP Configuration</em>
 </p>
 
 <p align="center">
-  <img src="../screenshots/Esquema Lab.png" width="700">
+  <img src="../screenshots/metaip.png" width="700">
   <br>
   <em>Nmap Discovery Function</em>
 </p
