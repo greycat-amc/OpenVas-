@@ -45,5 +45,6 @@ kali@kali:~$ sudo runuser -u _gvm -- gvmd --creat-user=admin --password=openvas
 
 -----
 
+
 ## Scan Configuration > Feed Owner Issue
 
