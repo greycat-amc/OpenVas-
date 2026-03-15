@@ -106,4 +106,4 @@ These vulnerabilities demonstrate that the system contains multiple insecure ser
   <em>Vulnerability Information</em>
 </p>
 
-In the section CVE-2011-2523 Analysis, we take a deeper look at one of the vulnerabilities identified during the OpenVAS scan.
+In [Lab Setup > Metasploitable2 Installation and Configuration](06-cve-2011-2523-vulnerability-analysis.md) section., we take a deeper look at one of the vulnerabilities identified during the OpenVAS scan.
