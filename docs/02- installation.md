@@ -20,7 +20,7 @@ This command updates the list of available packages on the system.The system que
 This command does not install any software yet, but ensures that the latest versions of packages are available before installing new software.
 
 <p align="center">
-  <img src="../screenshots/aptinstall.png" width="700">
+  <img src="../screenshots/aptupdate.png" width="700">
   <br>
   <em>Update Package List</em>
 </p>
