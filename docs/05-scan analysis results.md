@@ -48,6 +48,28 @@ In this laboratory environment, the scan targeted a single host **Metasploitable
   <em>Host Information</em>
 </p>
 
+## 3. Port Analysis
+
+The **Ports** tab displays the network services discovered during the vulnerability scan.This view allows analysts to quickly identify which network services are exposed and evaluate the potential attack surface of the system.Each entry includes:
+
+    - the port number
+    - the associated protocol
+    - the host where the service is running
+    - the severity level of vulnerabilities related to that service
+
+In the analyzed system, several ports are identified as **Critical**, indicating the presence of vulnerabilities that could allow attackers to compromise the system.Examples of exposed services include:
+
+- **21/tcp – FTP**
+- **80/tcp – HTTP**
+- **3306/tcp – MySQL**
+- **8787/tcp – Distributed Ruby (DRb)**
+
+The presence of multiple exposed services significantly increases the attack surface of the system.
+<p align="center">
+  <img src="../screenshots/puertos.png" width="700">
+  <br>
+  <em>Host Information</em>
+</p>
 
 
 
