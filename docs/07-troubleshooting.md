@@ -1,7 +1,7 @@
 # OpenVAS Installation > Setup Check Issue
 When running gvm-check-setup, if any issue is detected, the tool provides recommendations on how to resolve it. In our case, two issues were identified:  
 
-1 A problem related to PostgreSQL where the database was reported as **"does not exist"**. 
+ISSUE1: A problem related to PostgreSQL where the database was reported as **"does not exist"**. 
 <p align="center">
   <img src="../screenshots/gvmchecksetuppostgres.png" width="700">
   <br>
@@ -20,7 +20,7 @@ kali@kali:~$ sudo runuser -u postgres -- /usr/share/gvm/create-postgresql-databa
   <em>OpenVAS check setup</em>
 </p>
 
-2. The absence of a user account required to access the web interface.
+ISSUE2: The absence of a user account required to access the web interface.
 
 <p align="center">
   <img src="../screenshots/gvmchecksetupuser.png" width="700">
