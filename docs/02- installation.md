@@ -19,7 +19,7 @@ sudo apt update
 <p align="center">
   <img src="../screenshots/aptinstall.png" width="700">
   <br>
-  <em>OpenVAS installation process</em>
+  <em>Update Package List</em>
 </p>
 
 ## 2. Install Greenbone Vulnerability Manager (GVM)
