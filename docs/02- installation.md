@@ -31,7 +31,7 @@ This command installs the Greenbone Vulnerability Management framework, which in
 All required dependencies are automatically installed during this process.
 
 <p align="center">
-  <img src="../screenshots/aptinstall.png" width="700">
+  <img src="../screenshots/aptinstallopenvas.png" width="700">
   <br>
   <em>OpenVAS installation process</em>
 </p>
