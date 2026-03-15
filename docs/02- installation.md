@@ -101,7 +101,7 @@ kali@kali:~$ sudo gvm-start
 This command starts all services required for the vulnerability management platform.This command starts all services required for the vulnerability management platform.
 
 <p align="center">
-  <img src="../screenshots/gvmchecksetup.png" width="700">
+  <img src="../screenshots/gvmstart.png" width="700">
   <br>
   <em>OpenVAS check setup</em>
 </p>
