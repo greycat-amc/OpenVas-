@@ -11,7 +11,6 @@ The purpose of this laboratory is to demonstrate how a vulnerability scanner can
 - Network configuration: NAT Network (VirtualBox)
 - Tool: OpenVAS / Greenbone Vulnerability Manager
 - Role: Vulnerability scanner
-
 <p align="center">
   <img src="../screenshots/kalired.png" width="700">
   <br>
