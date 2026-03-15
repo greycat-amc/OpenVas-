@@ -105,7 +105,7 @@ Add .vmdk
   <br>
 </p
 
-5. After applying these modifications, the configuration is correct and ensures that the virtual machine boots directly from the Metasploitable2 disk image containing the intentionally vulnerable system used in this laboratory.
+  After applying these modifications, the configuration is correct and ensures that the virtual machine boots directly from the Metasploitable2 disk image containing the intentionally vulnerable system used in this laboratory.
 
 
 <p align="center">
@@ -113,7 +113,16 @@ Add .vmdk
   <br>
 </p
 
+  Finally,we configure the network adapter as a NAT Network to allow the laboratory environment to be deployed.
 
+<p align="center">
+  <img src="../screenshots/metasploitred.png" width="700">
+  <br>
+</p
+
+
+
+  
 -----
 
 
