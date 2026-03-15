@@ -128,4 +128,13 @@ Add .vmdk
 
 # Scan Configuration > Feed Owner Issue
 
+While creating a new target in OpenVAS, the following error message may appear:
+“The feed owner is currently not set. This issue may be due to the feed not having completed its synchronization. Please try again shortly.”
 
+<p align="center">
+  <img src="../screenshots/metasploitred.png" width="700">
+  <br>
+</p
+
+
+This error occurs when the Greenbone feed has not been properly initialized or the feed owner has not been configured. As a result, OpenVAS does not allow the creation of new targets.
