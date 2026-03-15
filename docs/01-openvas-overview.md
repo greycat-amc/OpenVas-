@@ -12,7 +12,7 @@ Each vulnerability test is implemented using NASL scripts that check for known s
 
 Detected vulnerabilities are usually linked to CVE identifiers and evaluated using the CVSS scoring system.
 
-Official Resources
+The following official resources provide detailed information about the tool:
 
 - 🌐 Official Greenbone website: https://www.greenbone.net
 - 📚 Greenbone documentation: https://docs.greenbone.net
