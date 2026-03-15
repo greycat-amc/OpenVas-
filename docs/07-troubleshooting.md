@@ -66,8 +66,7 @@ The default login and password is msfadmin:msfadmin.
   <br>
 </p
 
-
-  3. Once the virtual machine has been created, we go to **Settings** and review the default configuration.  
+3. Once the virtual machine has been created, we go to **Settings** and review the default configuration.  
   First, we modify the number of CPUs and set it to **2**.
 
 <p align="center">
@@ -106,9 +105,13 @@ Add .vmdk
   <br>
 </p
 
-This ensures that the virtual machine boots directly from the Metasploitable2 disk image containing the intentionally vulnerable system used in the laboratory.
+5. After applying these modifications, the configuration is correct and ensures that the virtual machine boots directly from the Metasploitable2 disk image containing the intentionally vulnerable system used in this laboratory.
 
 
+<p align="center">
+  <img src="../screenshots/almacenamientook.png" width="700">
+  <br>
+</p
 
 
 -----
