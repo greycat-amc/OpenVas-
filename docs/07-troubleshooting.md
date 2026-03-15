@@ -8,7 +8,9 @@ When running gvm-check-setup, if any issue is detected, the tool provides recomm
   <em>OpenVAS check setup</em>
 </p>
 
+
     The suggested solution was to recreate or initialize the PostgreSQL database used by GVM.
+    
 ````markdown
 kali@kali:~$ sudo runuser -u postgres -- /usr/share/gvm/create-postgresql-database
 ````
