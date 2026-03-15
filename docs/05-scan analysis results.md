@@ -28,6 +28,8 @@ This information confirms that the vulnerability assessment was executed success
 <p align="center">
   <img src="../screenshots/dashboardglobalview.png" width="700">
   <br>
+    <em> Scan Global Information</em>
+</p>
 
 
  ## 2. Host Analysis
