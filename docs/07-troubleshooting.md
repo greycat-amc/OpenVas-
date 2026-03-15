@@ -66,7 +66,7 @@ The default login and password is msfadmin:msfadmin.
   <br>
 </p
 
-3. Once the virtual machine has been created, we go to **Settings** and review the default configuration.  
+  Once the virtual machine has been created, we go to **Settings** and review the default configuration.  
   First, we modify the number of CPUs and set it to **2**.
 
 <p align="center">
@@ -75,7 +75,7 @@ The default login and password is msfadmin:msfadmin.
 </p
 
 
-4. Next, we review the Storage configuration, which determines the device from which the virtual machine will boot. As shown in the image, the system currently includes two storage controllers: an IDE controller with an empty optical drive and a SATA controller containing the virtual disk file MetasploitLab.vdi.
+  Next, we review the Storage configuration, which determines the device from which the virtual machine will boot. As shown in the image, the system currently includes two storage controllers: an IDE controller with an empty optical drive and a SATA controller containing the virtual disk file MetasploitLab.vdi.
 
 <p align="center">
   <img src="../screenshots/almacenamientodefecto.png" width="700">
