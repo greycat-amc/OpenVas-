@@ -1,6 +1,7 @@
 # OpenVAS Overview
 
 OpenVAS is an open-source vulnerability scanner that is part of the Greenbone Vulnerability Management (GVM) framework.It is designed to detect security vulnerabilities in systems and services by executing thousands of vulnerability tests against a target host.
+OpenVAS is designed to run on Linux systems. There is currently no official native version available for Windows.
 
 Main components:
 - OpenVAS Scanner
