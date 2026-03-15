@@ -45,17 +45,28 @@ For additional issues, please refer to the [official documentation](https://gree
 -----
 
 # Lab Setup > Metasploitable2 Installation and Configuration
-
-First, we download the Metasploitable2 virtual machine from the SourceForge website. This system, developed by Rapid7, is intentionally vulnerable and designed for educational and security testing purposes. The URL is https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
+Metasploitable is an intentionally vulnerable Linux virtual machine. This VM can be used to conduct security training, test security tools, and practice common penetration testing techniques. 
+1. First, we download the Metasploitable2 virtual machine from the SourceForge website. The URL is https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
+The default login and password is msfadmin:msfadmin.
 
 <p align="center">
   <img src="../screenshots/descarga.png" width="700">
   <br>
 </p>
 
+2. In VirtualBox, we create a new virtual machine with the following configuration:
 
+- **VM Name:** MetasploitLab  
+- **OS:** Linux  
+- **OS Distribution:** Ubuntu
+- **OS Version:** Ubuntu (32-bit)
 
-
+<p align="center">
+  <img src="../screenshots/configuremv.png" width="700">
+  <br>
+</p.png" width="700">
+  <br>
+</p
 
 
 
