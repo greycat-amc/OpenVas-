@@ -10,6 +10,9 @@
     
   These distributions provide the necessary dependencies and package repositories       required to install and run the Greenbone Vulnerability Management components.
 
+**Configuration note:**  
+All commands used during this process require administrator privileges. In the screenshots provided, the Kali Linux session already has administrative permissions, so the `sudo` prefix is not displayed.
+
 ## 1. Update Package List
 
 ````markdown
