@@ -44,7 +44,8 @@ The laboratory environment consists of two virtual machines connected to the sam
   <em>Laboratory Diagram</em>
 </p>
 
-##3.  Network Verification
+
+## 3.  Network Verification
 
 Before starting the vulnerability scan, it is necessary to identify the IP address assigned to the target virtual machine within the network. This can be done using standard network commands such as `ip a` or `ifconfig` on each machine. However, in this case, the Nmap host discovery function will be used to identify active hosts in the network, simulating a real-world environment.
 
