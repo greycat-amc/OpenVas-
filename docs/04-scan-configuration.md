@@ -1,4 +1,4 @@
-# Vulnerability Scan Configuration and Analysis
+# Vulnerability Scan Configuration
 
 Once the laboratory environment has been prepared and network connectivity between the scanner and the target system has been verified, the next step is to configure and execute the vulnerability scan using OpenVAS. The following screenshot shows the dashboard view displayed upon first access.
 
