@@ -43,6 +43,11 @@ After defining the target, a scan task must be created.
 
 1. Navigate to **Scans → Tasks**
 2. Click **New Task**
+
+<p align="center">
+  <img src="../screenshots/crearscan.png" width="750">
+</p>
+
 3. Configure the task with the following parameters:
 
 - **Name:** Metasploitable2 Scan
@@ -52,7 +57,13 @@ After defining the target, a scan task must be created.
 The **Full and Fast** configuration performs a comprehensive vulnerability assessment while maintaining reasonable scanning time.
 
 <p align="center">
-  <img src="../screenshots/openvas-task-config.png" width="750">
+  <img src="../screenshots/scanmeta.png" width="750">
+</p>
+
+Once the scan  has been successfully created, it will appear on the main screen as shown in the following screenshot. 
+
+<p align="center">
+  <img src="../screenshots/scanok.png" width="750">
 </p>
 
 ---
