@@ -2,12 +2,12 @@
 
 Once the vulnerability scan has completed, OpenVAS generates a detailed report that allows security analysts to review the findings and identify potential security risks in the target system.The report provides different views that help understand the results from several perspectives, including:
 
-  - scan overview
-  - scanned hosts
-  - detected ports and services
-  - identified applications
-  - detected vulnerabilities
-  - detailed vulnerability information
+    - scan overview
+    - scanned hosts
+    - detected ports and services
+    - identified applications
+    - detected vulnerabilities
+    - detailed vulnerability information
 
 The following sections describe how to interpret these results.
 
