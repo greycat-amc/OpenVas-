@@ -40,6 +40,7 @@ kali@kali:~$ sudo runuser -u _gvm -- gvmd --creat-user=admin --password=openvas
   <em>OpenVAS check setup</em>
 </p>
 -----
+For other issues, consult the official link: https://greenbone.github.io/docs/latest/22.4/kali/troubleshooting.html
 
 ## Lab Setup > Metasploitable2 Installation and Configuration
 
