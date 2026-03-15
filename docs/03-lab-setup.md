@@ -13,7 +13,9 @@ The purpose of this laboratory is to demonstrate how a vulnerability scanner can
 - Role: Vulnerability scanner
 
 <p align="center">
-  <img src="../screenshots/network-topology.png" width="700">
+  <img src="../screenshots/aptupdate.png" width="700">
+  <br>
+  <em>Kali Network Configurationt</em>
 </p>
 
 ### Target Machine
