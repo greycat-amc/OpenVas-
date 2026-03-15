@@ -71,19 +71,24 @@ Once the scan  has been successfully created, it will appear on the main screen 
 ## Launching the Scan
 
 Once the task has been created, the scan can be executed by clicking the **Start Scan** button.
-
 During this phase, OpenVAS performs several actions:
 
-- host discovery
-- port scanning
-- service detection
-- vulnerability testing using its vulnerability test database
+  - host discovery
+  - port scanning
+  - service detection
+  - vulnerability testing using its vulnerability test database
 
 The duration of the scan will depend on the number of detected services and the complexity of the target system.
 
 <p align="center">
-  <img src="../screenshots/openvas-scan-running.png" width="750">
+  <img src="../screenshots/scaninprogress.png" width="750">
 </p>
+
+Once the scan is completed, the results will appear as shown below.
+<p align="center">
+  <img src="../screenshots/scanfinish.png" width="750">
+</p>
+
 
 ---
 
