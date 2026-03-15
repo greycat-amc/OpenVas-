@@ -16,9 +16,8 @@ This command does not install any software yet, but ensures that the latest vers
 
 
 ````markdown
-```console
 kali@kali:~$ sudo apt install gvm
-```
+
 
 <p align="center">
   <img src="../screenshots/aptinstall.png" width="700">
