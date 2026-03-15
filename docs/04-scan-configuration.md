@@ -5,7 +5,7 @@ Once the laboratory environment has been prepared and network connectivity betwe
 <p align="center">
   <img src="../screenshots/dashboardview.png" width="700">
   <br>
-  <em>OpenVAN Dashboard</em>
+  <em>OpenVAS Dashboard</em>
 </p>
 
 ## Target Configuration
