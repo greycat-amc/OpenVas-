@@ -30,15 +30,18 @@ Metasploitable is an intentionally vulnerable virtual machine designed for secur
   <br>
   <em>Metasploitable2 Network Configurationt</em>
 </p>
+
 ## Laboratory Environment
 
-The laboratory environment consists of two virtual machines running in the same network, to allow communication between the scanner and the target.Both virtual machines are connected to the same NAT Network in VirtualBox in order to allow communication between the scanner and the target system.
+The laboratory environment consists of two virtual machines connected to the same network. Both machines are configured within the same **NAT Network in VirtualBox**, enabling communication between the vulnerability scanner and the target system.
 
 - **Kali Linux**: attacker machine used to install and run OpenVAS.
 - **Metasploitable 2**: intentionally vulnerable machine used as the scan target.
 
 <p align="center">
-  <img src="../screenshots/network-topology.png" width="700">
+  <img src="../screenshots/Esquema Lab.png" width="700">
+  <br>
+  <em>Laboratoy Diagram</em>
 </p>
 
 ## Comprobaciones de que el laboratorio funicona
