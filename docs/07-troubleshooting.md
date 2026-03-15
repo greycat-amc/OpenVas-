@@ -85,13 +85,14 @@ First, we modify the number of CPUs and set it to **2**.
 
 This configuration will not work correctly for our lab because Metasploitable2 is distributed as a preconfigured virtual disk in .vmdk format, not as a .vdi disk created during the VM wizard. Therefore, the machine will not boot into the intended vulnerable environment.
 
-To correct this configuration, we first remove the IDE controller, which is unnecessary in this setup. Then, under the SATA controller, we replace the existing .vdi disk with the Metasploitable2 .vmdk file previously downloaded. This ensures that the virtual machine boots directly from the Metasploitable2 disk image containing the intentionally vulnerable system used in the laboratory.
+To correct this configuration, we first remove the IDE controller, which is unnecessary in this setup. 
 
 <p align="center">
   <img src="../screenshots/borrarcontrolide.png" width="700">
   <br>
 </p
 
+Then, under the SATA controller, we replace the existing .vdi disk with the Metasploitable2 .vmdk file previously downloaded. This ensures that the virtual machine boots directly from the Metasploitable2 disk image containing the intentionally vulnerable system used in the laboratory.
 
 
 <p align="center">
@@ -99,14 +100,14 @@ To correct this configuration, we first remove the IDE controller, which is unne
   <br>
 </p
 
-
+Add .vmdk
 
 <p align="center">
   <img src="../screenshots/añadirvmdk.png" width="700">
   <br>
 </p
 
-
+This ensures that the virtual machine boots directly from the Metasploitable2 disk image containing the intentionally vulnerable system used in the laboratory.
 
 
 
