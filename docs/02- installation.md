@@ -11,7 +11,7 @@
   These distributions provide the necessary dependencies and package repositories       required to install and run the Greenbone Vulnerability Management components.
 
 ## Install GVM
-
+1. 
 sudo apt update
 sudo apt install gvm
 
