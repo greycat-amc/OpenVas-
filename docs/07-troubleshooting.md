@@ -1,7 +1,7 @@
 # OpenVAS Installation > Setup Check Issue
 When running gvm-check-setup, if any issue is detected, the tool provides recommendations on how to resolve it. In our case, two issues were identified:  
 
-A problem related to PostgreSQL where the database was reported as **"does not exist"**. 
+1 A problem related to PostgreSQL where the database was reported as **"does not exist"**. 
 <p align="center">
   <img src="../screenshots/gvmchecksetuppostgres.png" width="700">
   <br>
@@ -46,7 +46,7 @@ For additional issues, please refer to the [official documentation](https://gree
 
 # Lab Setup > Metasploitable2 Installation and Configuration
 Metasploitable is an intentionally vulnerable Linux virtual machine. This VM can be used to conduct security training, test security tools, and practice common penetration testing techniques. 
-1. First, we download the Metasploitable2 virtual machine from the SourceForge website. The URL is https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
+  First, we download the Metasploitable2 virtual machine from the SourceForge website. The URL is https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
 The default login and password is msfadmin:msfadmin.
 
 <p align="center">
@@ -54,7 +54,7 @@ The default login and password is msfadmin:msfadmin.
   <br>
 </p>
 
-2. In VirtualBox, we create a new virtual machine with the following configuration:
+  In VirtualBox, we create a new virtual machine with the following configuration:
 
   - **VM Name:** MetasploitLab  
   - **OS:** Linux  
