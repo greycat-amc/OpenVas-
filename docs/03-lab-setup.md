@@ -51,7 +51,7 @@ Before starting the vulnerability scan, it is necessary to identify the IP addre
 <p align="center">
   <img src="../screenshots/kaliip.png" width="700">
   <br>
-  <em>Kali IP Configuration</em>
+  <em>Kali IP</em>
 </p>
 
 <p align="center">
@@ -60,11 +60,12 @@ Before starting the vulnerability scan, it is necessary to identify the IP addre
   <em>Nmap Discovery Function</em>
 </p
 
-Once the IP address of the target system (Metasploitable2) has been identified, connectivity between the scanner and the target should be verified.
+Once the IP address of the target system (Metasploitable2) has been identified (10.0.2.7), connectivity between the scanner and the target should be verified.
 
 For this purpose, a simple `ping` command can be executed from the Kali Linux machine to confirm that both systems can communicate within the same network.
+<p align="center">
+  <img src="../screenshots/ping.png" width="700">
+  <br>
+  <em>Comunication Check</em>
+</p
 
-Example:
-
-```console
-kali@kali:~$ ping 10.0.2.7
