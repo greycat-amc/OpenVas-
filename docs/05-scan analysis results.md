@@ -32,4 +32,3 @@ This information confirms that the vulnerability assessment was executed success
 </p>
 
 
-![Scan Overview](../screenshots/dashboardglobalview.png)
