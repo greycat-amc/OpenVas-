@@ -63,7 +63,7 @@ This command performs the initial configuration of the platform.During this proc
 This step may take several minutes depending on system performance and insternet speed.
 
 <p align="center">
-  <img src="../screenshots/aptinstallopenvas.png" width="700">
+  <img src="../screenshots/gvmsetup.png" width="700">
   <br>
   <em>OpenVAS installation process</em>
 </p>
