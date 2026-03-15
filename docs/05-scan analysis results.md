@@ -68,8 +68,40 @@ The presence of multiple exposed services significantly increases the attack sur
 <p align="center">
   <img src="../screenshots/puertos.png" width="700">
   <br>
-  <em>Host Information</em>
+  <em>Port Information</em>
 </p>
 
+## 4. Vulnerability List
 
+The **Results** tab contains the complete list of vulnerabilities identified during the scan. Each vulnerability entry includes several attributes that help security analysts understand the risk associated with the finding.
+These attributes include:
 
+    - vulnerability name
+    - severity level
+    - host IP address
+    - affected port
+    - Quality of Detection (QoD)
+
+Severity levels are determined using the **CVSS scoring system**, which helps prioritize remediation actions. Several critical vulnerabilities were detected during the scan of the Metasploitable2 system. Examples include:
+
+- **rlogin Passwordless Login**
+- **Distributed Ruby (dRuby/DRb) Multiple RCE Vulnerabilities**
+- **TWiki Multiple XSS / Command Execution Vulnerabilities**
+- **Possible Backdoor: ingreslock**
+
+These vulnerabilities demonstrate that the system contains multiple insecure services that could be exploited by an attacker.
+<p align="center">
+  <img src="../screenshots/vulnerabilidades.png" width="700">
+  <br>
+  <em>Vulnerability Information</em>
+</p>
+
+## 5. Detailed Vulnerability Analysis (FTP port 21 - CVE-2011-2523)
+
+One of the most relevant vulnerabilities identified during the scan affects the **FTP service running on port 21**.
+OpenVAS detected that the system is running a compromised version of **vsftpd 2.3.4**, which contains a known backdoor vulnerability.
+<p align="center">
+  <img src="../screenshots/vulnerabilidad vsfpd.png" width="700">
+  <br>
+  <em>CVE-2011-2523</em>
+</p>
