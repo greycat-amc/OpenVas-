@@ -1,4 +1,5 @@
-OpenVAS Installation-Check Setup Issue
+
+## OpenVAS Installation > Check Setup Issue
 If any issue is detected, the tool provides recommendations on how to resolve it.  
 In our case, two issues were identified:
 
