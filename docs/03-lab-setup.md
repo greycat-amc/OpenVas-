@@ -41,7 +41,7 @@ The laboratory environment consists of two virtual machines connected to the sam
 <p align="center">
   <img src="../screenshots/Esquema Lab.png" width="700">
   <br>
-  <em>Laboratoy Diagram</em>
+  <em>Laboratory Diagram</em>
 </p>
 
 ## Network Verification
