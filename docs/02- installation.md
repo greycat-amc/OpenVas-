@@ -92,7 +92,20 @@ If any issue is detected, the tool provides recommendations on how to resolve it
 In our case, two issues were identified:
 
 1. A problem related to PostgreSQL where the database was reported as **"does not exist"**. The suggested solution was to recreate or initialize the PostgreSQL database used by GVM.
+<p align="center">
+  <img src="../screenshots/gvmchecksetuppostgres.png" width="700">
+  <br>
+  <em>OpenVAS check setup</em>
+</p>
 
-2. The absence of a user account required to access the web interface. In this case, it is necessary to create an administrator user in order to log in to the platform.
+````markdown
+kali@kali:~$ sudo runuser -u postgres -- /usr/share/gvm/create-postgresql-database
+````
+<p align="center">
+  <img src="../screenshots/gvmchecksetuppostgres_solve.png" width="700">
+  <br>
+  <em>OpenVAS check setup</em>
+</p>
+3. The absence of a user account required to access the web interface. In this case, it is necessary to create an administrator user in order to log in to the platform.
 
 
