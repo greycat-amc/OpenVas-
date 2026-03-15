@@ -46,7 +46,7 @@ For additional issues, please refer to the [official documentation](https://gree
 
 # Lab Setup > Metasploitable2 Installation and Configuration
 
-First, we download the Metasploitable2 virtual machine from the SourceForge website. This system, developed by Rapid7, is intentionally vulnerable and designed for educational and security testing purposes.
+First, we download the Metasploitable2 virtual machine from the SourceForge website. This system, developed by Rapid7, is intentionally vulnerable and designed for educational and security testing purposes. The URL is https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
 
 <p align="center">
   <img src="../screenshots/descarga.png" width="700">
