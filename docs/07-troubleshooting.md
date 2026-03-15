@@ -66,6 +66,7 @@ The default login and password is msfadmin:msfadmin.
   <br>
 </p
 
+
 3. Once the virtual machine has been created, we go to **Settings** and review the default configuration.  
 First, we modify the number of CPUs and set it to **2**.
 
