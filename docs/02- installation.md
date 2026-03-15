@@ -85,7 +85,7 @@ This command verifies that all required components have been correctly installed
 <p align="center">
   <img src="../screenshots/aptinstallopenvas.png" width="700">
   <br>
-  <em>OpenVAS installation process</em>
+  <em>OpenVAS check setup</em>
 </p>
 
 If any issue is detected, the tool provides recommendations on how to resolve it.  
