@@ -65,7 +65,7 @@ This step may take several minutes depending on system performance and insternet
 <p align="center">
   <img src="../screenshots/gvmsetup.png" width="700">
   <br>
-  <em>OpenVAS installation process</em>
+  <em>OpenVAS Setup</em>
 </p>
 
 
