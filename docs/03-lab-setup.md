@@ -44,4 +44,27 @@ The laboratory environment consists of two virtual machines connected to the sam
   <em>Laboratoy Diagram</em>
 </p>
 
-## Comprobaciones de que el laboratorio funicona
+## Network Verification
+
+Before starting the vulnerability scan, it is necessary to identify the IP addresses assigned to the virtual machines within the network. This can be done using standard network commands such as `ip a` or `ifconfig` in each machine. In this lab, the Nmap host discovery function will be used to identify active hosts in the network.
+
+<p align="center">
+  <img src="../screenshots/Esquema Lab.png" width="700">
+  <br>
+  <em>Kali IP Configuration</em>
+</p>
+
+<p align="center">
+  <img src="../screenshots/Esquema Lab.png" width="700">
+  <br>
+  <em>Nmap Discovery Function</em>
+</p
+
+Once the IP address of the target system (Metasploitable2) has been identified, connectivity between the scanner and the target should be verified.
+
+For this purpose, a simple `ping` command can be executed from the Kali Linux machine to confirm that both systems can communicate within the same network.
+
+Example:
+
+```console
+kali@kali:~$ ping 10.0.2.7
