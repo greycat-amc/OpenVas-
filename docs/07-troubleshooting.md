@@ -56,10 +56,10 @@ The default login and password is msfadmin:msfadmin.
 
 2. In VirtualBox, we create a new virtual machine with the following configuration:
 
-- **VM Name:** MetasploitLab  
-- **OS:** Linux  
-- **OS Distribution:** Ubuntu
-- **OS Version:** Ubuntu (32-bit)
+  - **VM Name:** MetasploitLab  
+  - **OS:** Linux  
+  - **OS Distribution:** Ubuntu
+  - **OS Version:** Ubuntu (32-bit)
 
 <p align="center">
   <img src="../screenshots/configuremv.png" width="700">
@@ -67,13 +67,14 @@ The default login and password is msfadmin:msfadmin.
 </p
 
 
-3. Once the virtual machine has been created, we go to **Settings** and review the default configuration.  
-First, we modify the number of CPUs and set it to **2**.
+  3. Once the virtual machine has been created, we go to **Settings** and review the default configuration.  
+  First, we modify the number of CPUs and set it to **2**.
 
 <p align="center">
   <img src="../screenshots/cpus.png" width="700">
   <br>
 </p
+
 
 4. Next, we review the Storage configuration, which determines the device from which the virtual machine will boot. As shown in the image, the system currently includes two storage controllers: an IDE controller with an empty optical drive and a SATA controller containing the virtual disk file MetasploitLab.vdi.
 
@@ -83,9 +84,7 @@ First, we modify the number of CPUs and set it to **2**.
 </p
 
 
-This configuration will not work correctly for our lab because Metasploitable2 is distributed as a preconfigured virtual disk in .vmdk format, not as a .vdi disk created during the VM wizard. Therefore, the machine will not boot into the intended vulnerable environment.
-
-To correct this configuration, we first remove the IDE controller, which is unnecessary in this setup. 
+This configuration will not work correctly for our lab because Metasploitable2 is distributed as a preconfigured virtual disk in .vmdk format, not as a .vdi disk created during the VM wizard. Therefore, the machine will not boot into the intended vulnerable environment. To correct this configuration, we first remove the IDE controller, which is unnecessary in this setup. 
 
 <p align="center">
   <img src="../screenshots/borrarcontroleride.png" width="700">
