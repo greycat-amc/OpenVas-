@@ -1,7 +1,6 @@
 
 ## OpenVAS Installation > Setup Check Issue
-When you use gvm-check-setup, if any issue is detected, the tool provides recommendations on how to resolve it.  
-In our case, two issues were identified:
+When running gvm-check-setup, if any issue is detected, the tool provides recommendations on how to resolve it. In our case, two issues were identified:  
 
 1. A problem related to PostgreSQL where the database was reported as **"does not exist"**. 
 <p align="center">
@@ -40,7 +39,7 @@ kali@kali:~$ sudo runuser -u _gvm -- gvmd --creat-user=admin --password=openvas
   <em>OpenVAS check setup</em>
 </p>
 -----
-For other issues, consult the official link: https://greenbone.github.io/docs/latest/22.4/kali/troubleshooting.html
+For additional issues, please refer to the [official documentation](https://greenbone.github.io/docs/latest/22.4/kali/troubleshooting.html).
 
 ## Lab Setup > Metasploitable2 Installation and Configuration
 
