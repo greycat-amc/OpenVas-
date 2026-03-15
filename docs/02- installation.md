@@ -106,3 +106,13 @@ This command starts all services required for the vulnerability management platf
   <em>OpenVAS Start</em>
 </p>
 
+## 6. Access the Web Interface
+
+
+This command starts all services required for the vulnerability management platform.This command starts all services required for the vulnerability management platform.
+
+<p align="center">
+  <img src="../screenshots/openvasweb.png" width="700">
+  <br>
+  <em>OpenVAS Web and Credentials</em>
+</p>
