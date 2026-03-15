@@ -54,11 +54,12 @@ kali@kali:~$ sudo gvm-setup
 
 This command performs the initial configuration of the platform.During this process the system will:
 
-  - download the vulnerability test feed
-  - configure the scanning engine
-  - initialize the PostgreSQL database
-  - generate SSL certificates
-  - create the administrator account
+    - download the vulnerability test feed
+    - configure the scanning engine
+    - initialize the PostgreSQL database
+    - generate SSL certificates
+    - create the administrator account
+
 This step may take several minutes depending on system performance and insternet speed.
 
 <p align="center">
