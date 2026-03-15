@@ -28,9 +28,12 @@ sudo apt install gvm
 
 This command installs the Greenbone Vulnerability Management framework, which includes:
 
-  -OpenVAS Scanner 
+  -OpenVAS Scanner
+  
   -Greenbone Vulnerability Manager (gvmd) 
-  -Greenbone Security Assistant (web interface) 
+  
+  -Greenbone Security Assistant (web interface)
+  
   -vulnerability test plugins (VTs)
   
 All required dependencies are automatically installed during this process.
