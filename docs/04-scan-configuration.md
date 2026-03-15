@@ -5,7 +5,7 @@ Once the laboratory environment has been prepared and network connectivity betwe
 <p align="center">
   <img src="../screenshots/dashboardview.png" width="700">
   <br>
-  <em>Kali Network Configurationt</em>
+  <em>OpenVAN Dashboard</em>
 </p>
 
 ## Target Configuration
