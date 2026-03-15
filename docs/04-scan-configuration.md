@@ -11,7 +11,7 @@ The first step is to define the scan target within the OpenVAS web interface.
 3. Provide the following information:
 
 - **Name:** Metasploitable2
-- **Hosts:** IP address of the target machine (e.g., `10.0.2.7`)
+- **Hosts:** 10.0.2.7
 - **Port List:** Default
 
 This configuration defines the system that will be analyzed by the vulnerability scanner.
