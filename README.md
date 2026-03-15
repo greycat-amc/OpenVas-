@@ -8,3 +8,4 @@ The detailed documentation is available in the following sections:
 - 🧪 [Laboratory Setup](docs/03-lab-setup.md)
 - 🔍 [Scan Results](docs/04-scan-results.md)
 - 📊 [Conclusions](docs/05-conclusions.md)
+- 🛠️ [Troubleshooting Guide](docs/06-troubleshooting.md)
