@@ -132,9 +132,30 @@ While creating a new target in OpenVAS, the following error message may appear:
 “The feed owner is currently not set. This issue may be due to the feed not having completed its synchronization. Please try again shortly.”
 
 <p align="center">
-  <img src="../screenshots/metasploitred.png" width="700">
+  <img src="../screenshots/issue.png" width="700">
   <br>
 </p
 
-
 This error occurs when the Greenbone feed has not been properly initialized or the feed owner has not been configured. As a result, OpenVAS does not allow the creation of new targets.
+
+To resolve this issue, the feed owner must be assigned manually.  First, we obtain the UUID of the available users using:
+````markdown
+kali@kali:~$ sudo gvmd --get-users --verbose
+````
+
+<p align="center">
+  <img src="../screenshots/uuidadmin.png" width="700">
+  <br>
+</p
+
+Then we assign the administrator as the feed owner with the following command:
+
+````markdown
+kali@kali:~$ sudo gvmd --modify-setting 78eceaec-3385-11ea-b237-28d24461215b --value 009bd7bb-e708-42ce-9fb9-14f1f5c5314d
+````
+<p align="center">
+  <img src="../screenshots/adminuevo.png" width="700">
+  <br>
+</p
+
+After applying this configuration, it is possible to create targets normally in OpenVAS.
