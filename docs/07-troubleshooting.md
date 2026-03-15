@@ -153,7 +153,8 @@ Then we assign the administrator as the feed owner with the following command:
 ````markdown
 kali@kali:~$ sudo gvmd --modify-setting 78eceaec-3385-11ea-b237-28d24461215b --value 009bd7bb-e708-42ce-9fb9-14f1f5c5314d
 ````
-Note: Feed Owner UUID in GVM is 78eceaec-3385-11ea-b237-28d24461215b.
+Note: In GVM, the UUID corresponding to the Feed Owner setting is 78eceaec-3385-11ea-b237-28d24461215b.
+
 <p align="center">
   <img src="../screenshots/adminuevo.png" width="700">
   <br>
