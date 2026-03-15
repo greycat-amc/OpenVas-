@@ -107,12 +107,19 @@ This command starts all services required for the vulnerability management platf
 </p>
 
 ## 6. Access the Web Interface
+After completing step 5, the web interface of the platform can be accessed through a web browser at:
 
+https://127.0.0.1:9392
 
-This command starts all services required for the vulnerability management platform.This command starts all services required for the vulnerability management platform.
+The credentials generated during the setup process are used to log in to the web interface.
 
 <p align="center">
   <img src="../screenshots/openvasweb.png" width="700">
   <br>
   <em>OpenVAS Web and Credentials</em>
 </p>
+ 
+This interface provides access to the Greenbone Security Assistant, where users can configure and manage different components of the vulnerability management platform, including targets, scan tasks, vulnerability reports, and system configuration.These elements and their functionality will be explored in greater detail in the [Vulnerability Scan](03-lab-setup.md) section. section.
+
+
+
