@@ -8,6 +8,6 @@ The detailed documentation is available in the following sections:
 - 🧪 [Laboratory Setup](docs/03-lab-setup.md)
 - 🎯 [Scan Configuration](docs/04-scan-configuration.md)
 - 🔍 [Scan Analysis Results](docs/05-scan analysis results.md)
-- 🚨 [CVE-2011-2523](docs/06-analysis FTP port 21-cve-2011-2523.md)
+- 🚨 [CVE-2011-2523](docs/06-cve-2011-2523-vulnerability-analysis.md)
 - 🛠️ [Troubleshooting Guide](docs/07-troubleshooting.md)
 - 📊 [Conclusions](docs/08-conclusions.md)
