@@ -25,5 +25,11 @@ This section contains general information about the scan task, including:
   - scan status
 
 This information confirms that the vulnerability assessment was executed successfully and provides context about the scope of the scan.
+<p align="center">
+  <img src="../screenshots/dashboardglobalview.png" width="700">
+  <br>
+  <em>Report Global View</em>
+</p>
+
 
 ![Scan Overview](../screenshots/dashboardglobalview.png)
