@@ -11,8 +11,13 @@
   These distributions provide the necessary dependencies and package repositories       required to install and run the Greenbone Vulnerability Management components.
 
 ## Install GVM
-1. 
-sudo apt update
+1. sudo apt update
+<p align="center">
+  <img src="../screenshots/aptinstall.png" width="700">
+  <br>
+  <em>OpenVAS installation process</em>
+</p>
+
 sudo apt install gvm
 
 ## Setup OpenVAS
