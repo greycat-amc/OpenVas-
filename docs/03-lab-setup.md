@@ -69,4 +69,4 @@ For this purpose, a simple `ping` command can be executed from the Kali Linux ma
   <em>Comunication Check</em>
 </p
 
-At this point, the environment is ready and the vulnerability scan can be configured.
+ At this point, the environment is ready and the vulnerability scan can be configured.
