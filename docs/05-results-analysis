@@ -1,5 +1,11 @@
-#Vulnerability Report Analysis
-
+# Vulnerability Report Analysis
 
 After completing the vulnerability scan, OpenVAS generates a detailed report containing the security issues identified on the target system. The results can be accessed through the OpenVAS web interface by navigating to:
+<p align="center">
+  <img src="../screenshots/dashboardview.png" width="700">
+  <br>
+  <em>OpenVAS Dashboard</em>
+</p>
+
+
 
