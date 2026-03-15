@@ -92,14 +92,14 @@ To correct this configuration, we first remove the IDE controller, which is unne
   <br>
 </p
 
-
+asdfasdfasdfsdf
 
 <p align="center">
   <img src="../screenshots/borrarvdi.png" width="700">
   <br>
 </p
 
-
+dfasdfasdfasdf
 
 <p align="center">
   <img src="../screenshots/añadirvmdk.png" width="700">
