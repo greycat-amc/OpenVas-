@@ -24,7 +24,7 @@ The purpose of this laboratory is to demonstrate how a vulnerability scanner can
 - Network configuration: NAT Network (VirtualBox)
 - Role: Vulnerable target system used for security testing
 
-Metasploitable is an intentionally vulnerable virtual machine designed for security training and penetration testing exercises. Instructions for downloading and configuring the Metasploitable2 machine can be found in the Troubleshooting section.
+Metasploitable is an intentionally vulnerable virtual machine designed for security training and penetration testing exercises. Instructions for downloading and configuring the Metasploitable2 machine can be found in the [How to Configure Metasploitable2](06-troubleshooting.md) section.
 
 <p align="center">
   <img src="../screenshots/metasploitred.png" width="700">
