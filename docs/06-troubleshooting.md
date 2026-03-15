@@ -39,3 +39,7 @@ kali@kali:~$ sudo runuser -u _gvm -- gvmd --creat-user=admin --password=openvas
   <br>
   <em>OpenVAS check setup</em>
 </p>
+
+## Lab Setup > How to Configure Metasploitable2
+
+
