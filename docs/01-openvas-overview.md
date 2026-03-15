@@ -18,15 +18,12 @@ Detected vulnerabilities are usually linked to CVE identifiers and evaluated usi
 - 📚 Greenbone documentation: https://docs.greenbone.net
 - 💻 OpenVAS source code: https://github.com/greenbone
 - 🐛 Vulnerability test feed information: https://greenbone.github.io/docs/
+- ## Official Resources
 
-## Related Security Databases
-
-Vulnerabilities detected by OpenVAS are typically referenced using standard security identifiers such as:
-
-- CVE (Common Vulnerabilities and Exposures)
-- CVSS (Common Vulnerability Scoring System)
-
-Useful references:
-
-- https://cve.mitre.org
-- https://nvd.nist.gov
+- 🌐 Official Greenbone website: https://www.greenbone.net
+- 📚 Greenbone documentation: https://docs.greenbone.net
+- 💻 OpenVAS source code: https://github.com/greenbone
+- 🐛 Vulnerability test feed information: https://greenbone.github.io/docs/
+- 🐞 Vulnerabilities detected by OpenVAS are typically referenced using standard      security identifiers such as CVE (Common Vulnerabilities and Exposures) and CVSS (Common Vulnerability Scoring System). Useful references:
+  - https://cve.mitre.org
+  - https://nvd.nist.gov
