@@ -115,10 +115,13 @@ kali@kali:~$ sudo runuser -u postgres -- /usr/share/gvm/create-postgresql-databa
   <br>
   <em>OpenVAS check setup</em>
 </p>
+
 In this case, it is necessary to create an administrator user in order to log in to the platform.
+
 ````markdown
 kali@kali:~$ sudo runuser -u _gvm -- gvmd --creat-user=admin --password=openvas
 ````
+
 <p align="center">
   <img src="../screenshots/gvmchecksetupuser_solved.png" width="700">
   <br>
