@@ -91,3 +91,18 @@ This command verifies that all required components have been correctly installed
 In this case, the command indicates that the installation has been completed successfully. However, in our situation, this result was obtained after performing several prior actions to resolve specific issues that occurred during the setup process. These steps can be found in [OpenVAS Installation > Setup Check Issue](06-troubleshooting.md) section.
 
 When the tool detects a problem during installation, it returns the corresponding error message and suggests possible actions to resolve it.
+
+## 5. Star the Services
+
+````markdown
+kali@kali:~$ sudo gvm-start
+````
+
+This command starts all services required for the vulnerability management platform.This command starts all services required for the vulnerability management platform.
+
+<p align="center">
+  <img src="../screenshots/gvmchecksetup.png" width="700">
+  <br>
+  <em>OpenVAS check setup</em>
+</p>
+
