@@ -122,7 +122,7 @@ The credentials generated during the setup process are used to log in to the web
   <em>OpenVAS Web and Credentials</em>
 </p>
  
-This interface provides access to the Greenbone Security Assistant, where users can configure and manage different components of the vulnerability management platform, including targets, scan tasks, vulnerability reports, and system configuration.These elements and their functionality will be explored in greater detail in the [Vulnerability Scan](03-lab-setup.md) section. section.
+This interface provides access to the Greenbone Security Assistant, where users can configure and manage different components of the vulnerability management platform, including targets, scan tasks, vulnerability reports, and system configuration.These elements and their functionality will be explored in greater detail in the [Vulnerability Scan](04-scan-configuration.md) section. section.
 
 
 
