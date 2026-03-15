@@ -75,9 +75,33 @@ First, we modify the number of CPUs and set it to **2**.
   <br>
 </p
 
+4. Next, we review the Storage configuration, which determines the device from which the virtual machine will boot. As shown in the image, the system currently includes two storage controllers: an IDE controller with an empty optical drive and a SATA controller containing the virtual disk file MetasploitLab.vdi.
+
+<p align="center">
+  <img src="../screenshots/almacenamientodefecto.png" width="700">
+  <br>
+</p
 
 
+This configuration will not work correctly for our lab because Metasploitable2 is distributed as a preconfigured virtual disk in .vmdk format, not as a .vdi disk created during the VM wizard. Therefore, the machine will not boot into the intended vulnerable environment.
 
+To correct this configuration, we first remove the IDE controller, which is unnecessary in this setup. Then, under the SATA controller, we replace the existing .vdi disk with the Metasploitable2 .vmdk file previously downloaded. This ensures that the virtual machine boots directly from the Metasploitable2 disk image containing the intentionally vulnerable system used in the laboratory.
+
+<p align="center">
+  <img src="../screenshots/borrarcontrolide.png" width="700">
+  <br>
+</p
+
+
+<p align="center">
+  <img src="../screenshots/borrarvdi.png" width="700">
+  <br>
+</p
+
+<p align="center">
+  <img src="../screenshots/añadirvmdk.png" width="700">
+  <br>
+</p
 
 
 
