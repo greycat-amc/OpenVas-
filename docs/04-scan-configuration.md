@@ -3,7 +3,9 @@
 Once the laboratory environment has been prepared and network connectivity between the scanner and the target system has been verified, the next step is to configure and execute the vulnerability scan using OpenVAS. 
 
 <p align="center">
-  <img src="../screenshots/targetconfig.png" width="750">
+  <img src="../screenshots/dashboardview.png" width="700">
+  <br>
+  <em>Kali Network Configurationt</em>
 </p>
 
 ## Target Configuration
